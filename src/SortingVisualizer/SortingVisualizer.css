@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 500% 500%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.array-container{
+    /* display: flex; */
+    align-items: center;
+    left:100px;
+}
+.array-container h1{
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    color: #fff;
+    position: relative;
+}
+.array-bar {
+    width: 100px;
+    background-color: rgb(21, 92, 85);
+    display:inline-block;
+    margin: 0 1px;
+}
+
+
+
+p {
+    font-size: 100%;
+    font-family: Gill Sans, Verdana;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+    color: #4d4c15
+}
+
+.generate-new{ 
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4e9af1;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+
+
+h1 { 
+    color: #111; 
+    font-family: 'Trocchi', serif;
+    font-size: 100px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center; 
+}
+.generate-new:hover{
+    border-color: rgba(255,255,255,1);
+}
+.sort-algo{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#d4d120;
+    text-align:center;
+    transition: all 0.2s;
+}
+.sort-algo:hover{
+    background-color:#9ec640;
+}
